@@ -1,0 +1,67 @@
+x=float(input("Digite um numero: "))
+y=float(input("Digite um numero: "))
+a=input("Escolha uma operacao(Ex:+,-,/,*): ")
+if a =="-":
+  z=x-y
+  j = z % 2
+  print(z)
+  if z>0:
+    print("Esse numero eh positivo")
+  if z<0:
+    print("Esse numero eh negativo")
+  if j==1:
+    print("Esse numero eh impar")
+  if j==0:
+    print("Esse numero eh par")
+  if (z // 1 == z):
+    print("Número inteiro")
+  if (z//1 != z):
+    print("Número decimal")
+elif a =="*":
+  z=x*y
+  j = z % 2
+  print(z)
+  if z>0:
+    print("Esse numero eh positivo")
+  if z<0:
+    print("Esse numero eh negativo")
+  if j==1:
+    print("Esse numero eh impar")
+  if j==0:
+    print("Esse numero eh par")
+  if (z // 1 == z):
+    print("Número inteiro")
+  if (z//1 != z):
+    print("Número decimal")
+elif a =="/":
+  z=x/y
+  j = z % 2
+  print(z)
+  if z>0:
+    print("Esse numero eh positivo")
+  if z<0:
+    print("Esse numero eh negativo")
+  if j==1:
+    print("Esse numero eh impar")
+  if j==0:
+    print("Esse numero eh par")
+  if (z // 1 == z):
+    print("Número inteiro")
+  if (z//1 != z):
+    print("Número decimal")
+elif a =="+":
+  z=x+y
+  j = z % 2
+  print(z)
+  if z>0:
+    print("Esse numero eh positivo")
+  if z<0:
+    print("Esse numero eh negativo")
+  if j==1:
+    print("Esse numero eh impar")
+  if j==0:
+    print("Esse numero eh par")
+  if (z // 1 == z):
+    print("Número inteiro")
+  if (z//1 != z):
+    print("Número decimal")
